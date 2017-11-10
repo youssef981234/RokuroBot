@@ -1,0 +1,17 @@
+{
+  "name": "clumsybotjs",
+  "version": "0.0.1",
+  "description": "dank",
+  "main": "MainBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ClumsyYT",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "ffmpeg": "0.0.4",
+    "opusscript": "0.0.4",
+    "ytdl-core": "^0.18.1"
+  }
+}
