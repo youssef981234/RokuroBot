@@ -12,6 +12,12 @@ const fs = require('fs');
 
 var ffmpeg = require('ffmpeg');
 
+var fourtunes = {
+	"Yes",
+	"No",
+	"It's up to you man"
+}
+
 bot.commands = new Discord.Collection();
 
 fs.readdir("./commands/", (err, files) => {
