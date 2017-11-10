@@ -6,17 +6,7 @@ const bot = new Discord.Client();
 
 const prefix = botSettings.prefix;
 
-const YTDL = require('ytdl-core');
-
 const fs = require('fs');
-
-var ffmpeg = require('ffmpeg');
-
-var fourtunes = {
-	"Yes",
-	"No",
-	"It's up to you man"
-}
 
 bot.commands = new Discord.Collection();
 
