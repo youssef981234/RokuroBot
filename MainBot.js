@@ -44,7 +44,7 @@ bot.on('message', async message => {
 
 	let messageArray = message.content.slice(/\s+/g)
 	let command = messageArray[0]
-	let args = messageArray.slice(1)
+	let args = messageArray.slice(2)
 
 	if(!message.content.startsWith(prefix)) return;
 
